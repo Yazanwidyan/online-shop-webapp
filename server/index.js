@@ -20,6 +20,10 @@ app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 app.use(cookieParser());
 
+app.get("/", (req, res) => {
+  res.json({ hello: "heroku app" });
+});
+
 app.get("/api/user/auth", auth, (req, res) => {
   res.status(200).json({
     _id: req._id,
