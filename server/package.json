@@ -2,10 +2,6 @@
   "name": "mern-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
-  "engine":{
-    "node":"13.8.0",
-    "yarn":"1.21.1"
-  },
   "author": "Yazan Widyan",
   "scripts": {
     "start": "node index.js",
