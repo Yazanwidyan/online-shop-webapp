@@ -4,7 +4,7 @@
   "main": "index.js",
   "engine":{
     "node":"13.8.0",
-    "npm":"6.13.6"
+    "yarn":"1.21.1"
   },
   "author": "Yazan Widyan",
   "scripts": {
