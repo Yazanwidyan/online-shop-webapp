@@ -5,6 +5,9 @@ import axios from "axios";
 import { USER_SERVER } from "../../../Config";
 import { withRouter } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { FiLogOut } from "react-icons/fi";
+import { MdFileUpload } from "react-icons/md";
+import { FaMoneyCheck } from "react-icons/fa";
 
 function RightMenu(props) {
   const user = useSelector((state) => state.user);
@@ -34,14 +37,22 @@ function RightMenu(props) {
     return (
       <Menu mode={props.mode}>
         <Menu.Item key="history">
-          <a href="/history">History</a>
+          <a href="/history">
+            <FaMoneyCheck
+              style={{ width: "25px", height: "25px", marginBottom: "-8px" }}
+            />
+          </a>
         </Menu.Item>
 
         <Menu.Item key="upload">
-          <a href="/product/upload">Upload</a>
+          <a href="/product/upload">
+            <MdFileUpload
+              style={{ width: "25px", height: "25px", marginBottom: "-8px" }}
+            />
+          </a>
         </Menu.Item>
 
-        <Menu.Item key="cart" style={{ paddingBottom: 3 }}>
+        <Menu.Item key="cart" style={{ paddingBottom: 3, paddingRight: 25 }}>
           <Badge count={user.userData && user.userData.cart.length}>
             <a href="/user/cart" style={{ marginRight: -22, color: "#667777" }}>
               <Icon
@@ -53,7 +64,11 @@ function RightMenu(props) {
         </Menu.Item>
 
         <Menu.Item key="logout">
-          <a onClick={logoutHandler}>Logout</a>
+          <a onClick={logoutHandler}>
+            <FiLogOut
+              style={{ width: "25px", height: "25px", marginBottom: "-8px" }}
+            />
+          </a>
         </Menu.Item>
       </Menu>
     );

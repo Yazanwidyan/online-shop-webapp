@@ -7,13 +7,13 @@ const { Title } = Typography;
 const { TextArea } = Input;
 
 const Continents = [
-  { key: 1, value: "Africa" },
-  { key: 2, value: "Europe" },
-  { key: 3, value: "Asia" },
-  { key: 4, value: "North America" },
-  { key: 5, value: "South America" },
-  { key: 6, value: "Australia" },
-  { key: 7, value: "Antarctica" },
+  { key: 1, value: "Lifestyle" },
+  { key: 2, value: "Jordan" },
+  { key: 3, value: "Running" },
+  { key: 4, value: "Basketball" },
+  { key: 5, value: "Baseball" },
+  { key: 6, value: "Tennis" },
+  { key: 7, value: "Walking" },
 ];
 
 function UploadProductPage(props) {
@@ -78,7 +78,7 @@ function UploadProductPage(props) {
   return (
     <div style={{ maxWidth: "700px", margin: "2rem auto" }}>
       <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-        <Title level={2}> Upload Travel Product</Title>
+        <Title level={2}> Upload Product</Title>
       </div>
 
       <Form onSubmit={onSubmit}>

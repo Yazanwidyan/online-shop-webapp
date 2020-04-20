@@ -1,0 +1,98 @@
+.main-container {
+    background-image: url('../../Assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+
+}
+
+.product-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.details-container {
+    align-self: flex-end;
+    box-shadow: 40px 31px 69px -3px rgba(0, 0, 0, 0.75);
+    border-radius: 23px;
+    align-self: flex-end;
+    box-shadow: 1px -2px 89px -16px rgba(0, 0, 0, 0.75);
+    padding: 8px 0px 8px 24px;
+}
+
+
+
+
+.details-product-name {
+    font-size: 2rem;
+    width: 10rem;
+    font-family: 'Jockey One', sans-serif;
+
+}
+
+.details-product-price {
+    font-size: 1rem;
+    letter-spacing: 3px;
+
+}
+
+.details-product-cart {
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+
+.hr {
+    display: flex;
+}
+
+.wishlist-icon {
+    margin-left: 3rem;
+    margin-top: 4px;
+}
+
+.shoe-img {
+    margin-left: 20rem
+}
+
+.details-product-name-2 {
+    align-self: flex-end;
+    position: absolute;
+    font-size: 5rem;
+    margin-top: 6rem;
+    color: white;
+    opacity: 0.8;
+    margin-left: 2rem;
+
+}
+
+.details-product-name-2-name {
+    margin-top: -78px;
+    margin-right: -26px;
+}
+
+.year-tag {
+    margin-left: 71px;
+    font-size: 10rem;
+}
+
+.social-icons {
+    font-size: 18px;
+    bottom: 81px;
+    right: 0;
+    display: flex;
+    writing-mode: vertical-lr;
+    text-orientation: inherit;
+    position: fixed;
+    transform: rotate(180deg);
+    margin-right: 27px;
+}
+
+.social-text {
+    margin-bottom: 34px;
+
+}

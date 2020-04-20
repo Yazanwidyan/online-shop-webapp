@@ -34,31 +34,31 @@ const price = [
 const continents = [
   {
     _id: 1,
-    name: "Africa",
+    name: "Lifestyle",
   },
   {
     _id: 2,
-    name: "Europe",
+    name: "Jordan",
   },
   {
     _id: 3,
-    name: "Asia",
+    name: "Running",
   },
   {
     _id: 4,
-    name: "North America",
+    name: "Basketball",
   },
   {
     _id: 5,
-    name: "South America",
+    name: "Baseball",
   },
   {
     _id: 6,
-    name: "Australia",
+    name: "Tennis",
   },
   {
     _id: 7,
-    name: "Antarctica",
+    name: "Walking",
   },
 ];
 
